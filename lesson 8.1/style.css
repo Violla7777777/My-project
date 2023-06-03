@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-size: sans-serif !important;
+
+}
+
+body {
+    background-color: bisque;
+}
+li {
+    list-style: none;
+}
+ul {
+    padding: 0;
+}
+a {
+    text-decoration: none;
+}
+.Header-nav__list {
+    display: flex;
+    justify-content: center;
+    background-color:black;
+    padding: 15px;
+
+}
+.Header-nav__list li {
+    margin-right: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #fafafa;
+}
+.Header-nav__list li:last-child {
+    margin-right: 0px;
+}
